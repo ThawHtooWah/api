@@ -1,6 +1,6 @@
 # Installtion of Apache Server in Ubuntu
 
-## Installing Apache
+## 1. Installing Apache
 **Update local package**
 ```console
 sudo apt update
@@ -10,7 +10,7 @@ sudo apt update
 sudo apt install apache2
 ```
 
-## Adjust Firewall
+## 2. Adjust Firewall
 **List UFW application profiles**
 ```console
 sudo ufw app list
@@ -24,7 +24,7 @@ sudo ufw allow 'Apache'
 sudo ufw status
 ```
 
-## Check Web Server
+## 3. Check Web Server
 **Check to make sure service is running**
 ```console
 sudo systemctl status apache2
@@ -36,7 +36,7 @@ http://your_server_ip
 http://localhost
 ```
 
-## Manage Apache Process
+## 4. Manage Apache Process
 **Stop Web Server**
 ```console
 sudo systemctl stop apache2
