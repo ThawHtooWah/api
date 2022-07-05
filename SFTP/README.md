@@ -4,7 +4,7 @@ Reference - https://phpseclib.com/docs/install
 phpseclib provides pure-PHP implementations of SSH2, SFTP, RSA, DSA, Elliptic Curves, AES, ChaCha20, X.509, CSR, CRL, SPKAC, etc.
 
 ## Installation
-### 1. Install Composer 2
+### 1. Install composer2
 
 **1.1 Download the installer to the current directory**
 ``` sh
@@ -30,4 +30,10 @@ php composer-setup.php
 ```sh
 ➜  composer2 --version                       
 Composer version 2.2.15 2022-07-01 12:01:26
+```  
+
+### 2. Install phpseclib using composer
+**2.1 Install phpseclib 3.0**
+```sh
+composer2 require phpseclib/phpseclib:~3.0
 ```
